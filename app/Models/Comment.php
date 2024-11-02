@@ -14,4 +14,8 @@ class Comment extends Model
     protected $fillable = [
         "user_id", "post_id", "comment", "parent_id"
     ];
+
+    public function sbviu() {
+        echo " kfhiohef";
+    }
 }
